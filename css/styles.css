@@ -7763,7 +7763,7 @@ textarea.form-control-lg {
 
 .text-white {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  color: white;
 }
 
 .text-body {
@@ -7773,7 +7773,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #000000 !important;
+  color: #000000;
 }
 
 .text-black-50 {
@@ -11303,7 +11303,7 @@ body {
 }
 
 .text-white-75 {
-  color: rgba(255, 255, 255, 0.75) !important;
+  color: rgba(255, 255, 255, 1) !important;
 }
 
 .btn-xl {
