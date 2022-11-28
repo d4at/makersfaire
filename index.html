@@ -1,528 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
-
-  <title>D4AT - Design for Assistive Technology</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Additional CSS Files -->
-  <link rel="stylesheet" href="assets/css/fontawesome.css">
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <link rel="stylesheet" href="assets/css/animated.css">
-  <link rel="stylesheet" href="assets/css/owl.css">
-  <!--
-    
-TemplateMo 562 Space Dynamic
-
-https://templatemo.com/tm-562-space-dynamic
-
--->
-</head>
-
-<body>
-
-  <!-- ***** Preloader Start ***** -->
-  <div id="js-preloader" class="js-preloader">
-    <div class="preloader-inner">
-      <span class="dot"></span>
-      <div class="dots">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-  </div>
-  <!-- ***** Preloader End ***** -->
-
-  <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <nav class="main-nav">
-            <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo">
-              <h4>D4<span>AT</span></h4>
-            </a>
-            <!-- ***** Logo End ***** -->
-            <!-- ***** Menu Start ***** -->
-            <ul class="nav">
-              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-              <li class="scroll-to-section"><a href="#about">About Us</a></li>
-              <li class="scroll-to-section"><a href="#chapters">Chapters</a></li>
-              <li class="scroll-to-section"><a href="#projects">Projects</a></li>
-              <li class="scroll-to-section"><a href="#events">Events</a></li>
-              <li class="scroll-to-section"><a href="#join">Join</a></li>
-            </ul>
-            <a class='menu-trigger'>
-              <span>Menu</span>
-            </a>
-            <!-- ***** Menu End ***** -->
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- ***** Header Area End ***** -->
-
-  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="row">
-            <div class="col-lg-6 align-self-center">
-              <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
-                <h2>Design for <em>Assistive</em>
-                  <span>Technology</span>
-                </h2>
-                <p>We’re a student run 501(c)(3) non-profit engineering Assistive Technology for our community with
-                  chapters all over the United States. </p>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                <img src="assets/images/assistivetech.jpeg" style="border-radius: 30px" al="team meeting">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="about" class="about-us section">
-    <div class="container">
-      <div class="row">
-        <div class="align-self-center">
-          <div class="services">
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
-                  <div class="icon">
-                    <img src="assets/images/service-icon-01.png" alt="reporting">
-                  </div>
-                  <div class="right-text">
-                    <h4>Goal</h4>
-                    <p>Design For Assistive Technology is a non-profit organization run by high school students
-                      committed to fostering a community passionate about building assistive technology (AT). We’re a
-                      network of AT-focused high schools clubs helping to empower the community through developing
-                      accessible technology.
-                    </p>
-                  </div>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>D4AT Faire</title>
+        <!-- Favicon-->
+        <!-- <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">D4AT Faire</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Schedule</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
                 </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
-                  <div class="icon">
-                    <img src="assets/images/service-icon-02.png" alt="">
-                  </div>
-                  <div class="right-text">
-                    <h4>Structure</h4>
-                    <p>As an organization, Design For Assistive Technology connects clubs throughout different schools
-                      with the goal of designing assistive technology projects and building stronger student networks.
-                      D4AT clubs work throughout the school year on understanding the issues faced by their co-designers
-                      and working to create solutions that address their needs. The Design For Assistive Technology
-                      faire is held at the end of the school year to give these clubs the opportunity to present their
-                      assistive technology projects and to see what other clubs have created.
-                    </p>
-                  </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-weight-bold">Designing for Assistive Technology Faire</h1>
+                        <hr class="divider" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 mb-5">Join us in showcasing our assistive technology projects! The virtual event will take place on April 23 from 4 to 6 PM (EDT).</p>
+                        <a class="btn btn-primary btn-xl" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfIe9bJCYjb_2Uk6iOZmtI-KE5cmnyhyI8ruRIwbrgjkYnG2Q/viewform">Register Now</a> <!--sign up form link--> 
+                    </div>
                 </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.9s">
-                  <div class="icon">
-                    <img src="assets/images/service-icon-03.png" alt="">
-                  </div>
-                  <div class="right-text">
-                    <h4>Co-designer Process</h4>
-                    <p>A unique aspect of D4AT is that all of its members work with co-designers to build assistive
-                      technology. Anyone can be a co-designer, from an individual with a disability to someone facing an
-                      everyday issue, but all co-designers collaboratively work with engineers to innovate assistive
-                      technology to improve their lives and share their innovations with the rest of the world.
-                      Co-designers share their experiences and feedback to assist in the design process and make an
-                      accessible product that everyone benefits from.</p>
-                  </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="page-section bg-primary" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">D4AT Faire</h2>
+                        <hr class="divider divider-light" />
+                        <p class="text-white-75 mb-4">Throughout the year, clubs from Designing from Assistive technology (D4AT) have been working on their assistive technology projects! Teams used the co-designing process to develop an assistive technology for a member of their community. During the D4AT faire, students will have the opportunity to present their projects and view the prototypes from other teams.</p>
+                        <a class="btn btn-light btn-xl" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfIe9bJCYjb_2Uk6iOZmtI-KE5cmnyhyI8ruRIwbrgjkYnG2Q/viewform">sign up for the event</a> <!--sign up form link--> 
+                        <hr class="divider divider-light"/>
+                        <p class="text-white-75 mb-4">Interested in helping us fund our event? Donate below!</p>
+                        <a class="btn btn-light btn-xl" target="_blank" href="https://secure.givelively.org/donate/hackplus/designing-for-assistive-technology">donate</a>
+                    </div>
                 </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="1.1s">
-                  <div class="icon">
-                    <img src="assets/images/service-icon-04.png" alt="">
-                  </div>
-                  <div class="right-text">
-                    <h4>Showcase Events</h4>
-                    <p>Throughout the year, clubs from Designing from Assistive technology (D4AT) have been working on
-                      their assistive technology projects! Teams used the co-designing process to develop an assistive
-                      technology for a member of their community. During the D4AT faire, students will have the
-                      opportunity to present their projects and view the prototypes from other teams.
-                      <br>
-                      This year we’re also involved in BWSI’s CRE[AT]E Challenge **insert link** and will be using the
-                      course information and feedback for our Assistive Technology projects. We will also be working a
-                      secondary line of assistance (answering AT questions and extra design reviews) to bridge the gap
-                      between teams and busy mentors.
-                    </p>
-                  </div>
+            </div>
+        </section>
+        <!-- Services-->
+        <section class="page-section" style="background-color: #02084b;">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">Intro Video</h2>
+                        <hr class="divider" />
+                    </div>
                 </div>
-              </div>
+                <iframe src="https://drive.google.com/file/d/1Rv3YNOJ95ZsZuvlIv1NabW6ZBhXyRAlT/preview" width="100%" height="600"auto allow="autoplay"></iframe>
+            </div>  
+        </section>
+        <section class="page-section" id="services">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-center mt-0">Schedule</h2>
+                <hr class="divider" />
+                <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">PDT Time</th>
+                        <th scope="col">EDT Time</th>
+                        <th scope="col">Event</th>
+                        <th scope="col">Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1:00 - 1:15 PM PDT</td>
+                            <td>4:00 - 4:15 PM EDT</td>
+                            <td>Opening Ceremony</td>
+                            <td>Introduction of D4AT and keynote speech by Hosea Siu</td>
+                        </tr>
+                        <tr>
+                            <td>1:15 - 2:15 PM PDT</td>
+                            <td>4:15 - 5:15 PM EDT</td>
+                            <td>Project Presentations</td>
+                            <td>Students present their projects</td>
+                        </tr>
+                        <tr>
+                            <td>2:15 - 2:20 PM PDT</td>
+                            <td>5:15 - 5:20 PM EDT</td>
+                            <td>Break</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>2:20 - 2:40 PM PDT</td>
+                            <td>5:20 - 5:40 PM EDT</td>
+                            <td>Meet and Talk with the Students</td>
+                            <td>Spend some time meeting students and talking to them more about the specifics of their projects</td>
+                        </tr>
+                        <tr>
+                            <td>2:40 - 3:00 PM PDT</td>
+                            <td>5:40 - 6:00 PM EDT</td>
+                            <td>Closing ceremony</td>
+                            <td>Closing remarks by Joel Grimm and conclusion of the D4AT Faire</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-          </div>
-        </div>
-        <center>
-          <div class="align-self-center">
-            <div class="left-image wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-              <img src="assets/images/d4at map.png" alt="d4at map" style="width:75%;">
-            </div>
-          </div>
-        </center>
-      </div>
-    </div>
-  </div>
-
-  <div id="chapters" class="our-portfolio section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 offset-lg-3">
-          <div class="section-heading  wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
-            <h2 style="font-size:3em; margin-bottom: 40px;">Our Chapters</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-sm-6">
-          <a href="#">
-            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-              <div class="hidden-content">
-                <h4>Thomas Jefferson High School</h4>
-                <p style="margin-top: -10px;">Representatives: Kenneth Do, Amith Polineni</p>
-              </div>
-              <div class="showed-content" style="background: url('/assets/images/tj.jpg') center;">
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <a href="#">
-            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
-              <div class="hidden-content">
-                <h4>American High School</h4>
-                <p style="margin-top: -10px;">Representative: Nandana Venkitesh</p>
-              </div>
-              <div class="showed-content" style="background: url('/assets/images/american.jpeg') center;">
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <a href="#">
-            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-              <div class="hidden-content">
-                <h4>Canyon Crest Academy</h4>
-                <p>Representative: Viplove Rahate</p>
-              </div>
-              <div class="showed-content" style="background: url('/assets/images/canyon.jpeg') center;">
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <a href="#">
-            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.6s">
-              <div class="hidden-content">
-                <h4>Holly's High School</h4>
-                <p>Representative: Holly Weber</p>
-              </div>
-              <div class="showed-content" style="background: url('/assets/images/holly.jpeg') center;">
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- schoools here -->
-  <div id="projects" class="projects">
-    <div id="tj" class="school">
-      <div class="school-left-side">
-        <div class="school-name">
-          <h2>Thomas Jefferson High School for Science and Technology</h2>
-          <h4 style="margin-top: 15px;">Alexandria, Virginia</h4>
-        </div>
-        <div class="school-desc">
-          <p>Thomas Jefferson High School for Science and Technology is a STEM-oriented magnet school in northern
-            Virginia. The school is home to its Assistive Technology Club (TJ ATC), a group that strives to create and
-            utilize quality AT to benefit community members. The school’s club meets weekly with local elementary
-            students with disabilities over video calls to help the students practice communicating with speaking
-            devices. TJ ATC is currently undertaking a series of long-term projects to build physical tools to support
-            these students in the classroom.</p>
-        </div>
-        <div class="school-projects">
-          <ul>
-            <li>Scoreboard</li>
-            <li>Guided Drawing Tool</li>
-          </ul>
-          <ul style="margin-left: 25px;">
-            <li>Hand-Raiser</li>
-            <li>Switch-Adaptable Toys</li>
-          </ul>
-        </div>
-      </div>
-      <div class="school-right-side">
-        <img src="assets/images/tjprojects.jpg" class="school-project-pic">
-      </div>
-
-    </div>
-
-    <div id="ahs" class="school">
-      <div class="school-left-side">
-        <div class="school-name">
-          <h2>American High School</h2>
-          <h4 style="margin-top: 15px;">Fremont, California</h4>
-        </div>
-        <div class="school-desc">
-          <p>American High School is a public high school in Fremont, California, in the San Francisco Bay Area. The
-            school hosts AHS Innovator’s Club, a makerspace and hands-on engineering club that seeks to provide a space
-            for students to design and build independent projects. The club spends a part of the year on assistive
-            technology projects, and this year, it will be co-designing with two community members with cerebral palsy.
-          </p>
-        </div>
-        <div class="school-projects">
-          <ul>
-            <li>Scoreboard</li>
-            <li>Guided Drawing Tool</li>
-          </ul>
-          <ul style="margin-left: 25px;">
-            <li>Hand-Raiser</li>
-            <li>Switch-Adaptable Toys</li>
-          </ul>
-        </div>
-      </div>
-      <div class="school-right-side">
-        <img src="assets/images/assistivetech2.jpeg" class="school-project-pic">
-      </div>
-    </div>
-
-    <div id="cca" class="school">
-      <div class="school-left-side">
-        <div class="school-name">
-          <h2>Canyon Crest Academy</h2>
-          <h4 style="margin-top: 15px;">San Diego, California</h4>
-        </div>
-        <div class="school-desc">
-          <p>Canyon Crest Academy is the 1st public school in California, and the 30th public school in the US, known
-            for its arts and academics. The school will be home to Canyon Crest’s D4AT in the Spring of 2023. The club
-            plans to work with the district’s special education program, as well as disability groups in the local
-            community to help develop assistie technology.</p>
-        </div>
-        <div class="school-projects">
-          <ul>
-            <li>Scoreboard</li>
-            <li>Guided Drawing Tool</li>
-          </ul>
-          <ul style="margin-left: 25px;">
-            <li>Hand-Raiser</li>
-            <li>Switch-Adaptable Toys</li>
-          </ul>
-        </div>
-      </div>
-      <div class="school-right-side">
-        <img src="assets/images/assistivetech3.jpeg" class="school-project-pic">
-      </div>
-    </div>
-
-  </div>
-
-  <div id="events" class="our-blog section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.25s">
-          <div class="section-heading">
-            <h2>Check out our upcoming guest speakers and other D4AT-related events!</h2>
-          </div>
-        </div>
-        <div class="col-lg-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.25s">
-          <div class="top-dec">
-            <img src="assets/images/blog-dec.png" alt="">
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-          <div class="left-image">
-            <a href="#"><img src="assets/images/big-blog-thumb.jpg" alt="Workspace Desktop"></a>
-            <div class="info">
-              <div class="inner-content">
-                <ul>
-                  <li><i class="fa fa-calendar"></i> 24 Mar 2021</li>
-                  <li><i class="fa fa-users"></i> TemplateMo</li>
-                  <li><i class="fa fa-folder"></i> Branding</li>
-                </ul>
-                <a href="#">
-                  <h4>Guest Speaker #1</h4>
-                </a>
-                <p>Lorem ipsum dolor sit amet, consectetur and sed doer ket eismod tempor incididunt ut labore et dolore
-                  magna...</p>
-                <div class="main-blue-button">
-                  <a href="#">Discover More</a>
+        </section>
+        
+        
+        <!-- Contact-->
+        <section class="page-section" id="portfolio" style="background-color: #f4623a;">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                        <h2 class="mt-0" style="color:white;">Projects and Descriptions</h2>
+                        <hr class="divider divider-light" />
+                    </div>
+                        
+                        <table class="table" style="width:100%;">
+                            <thead style="border-color:#f6ad59;">
+                              <tr>
+                                <th scope="col" style="color:white;">Project Name</th>
+                                <th scope="col" style="color:white;">School</th>
+                                <th scope="col" style="color:white;">Description</th>
+                              </tr>
+                            </thead>
+                            <tbody style="color:white; border-color:#f6ad59;">
+                                <tr>
+                                    <td>Modified walker grip</td>
+                                    <td>Great Neck North High School</td>
+                                    <td>A device that aids the codesigner in forming a grip shape to hold walker handles more easily. </td>
+                                </tr>
+                                <tr>
+                                    <td>Broom with Wheels</td>
+                                    <td>Design Tech High School</td>
+                                    <td>A broom that allows the co-designer to easily clean the leaves in her garden without turning her wrist or bending down so that she can pursue her hobbies and daily tasks without getting hurt.</td>
+                                </tr>
+                                <tr>
+                                    <td>Weed Picker</td>
+                                    <td>Design Tech High School</td>
+                                    <td>An easy to use efficient weed puller that enables the user to pull weeds without straining their back or knees.</td>
+                                </tr>
+                                <tr>
+                                    <td>Pull Broom</td>
+                                    <td>Design Tech High School</td>
+                                    <td>A broom that allows the user to avoid leaning over and has a thick handle allowing the user to firmly hold on to the broom. The broom is simple and easy to grip and utilize, while at the same time effective in its cleaning abilities.</td>
+                                </tr>
+                                <tr>
+                                    <td>Cup holder + umbrella holder</td>
+                                    <td>Clovis North High School</td>
+                                    <td>The cup holder and umbrella holder seeks to aid the codesigner, who lives with brittle bone disease, to carry things with greater ease and efficiency.</td>
+                                </tr>
+                                <tr>
+                                    <td>Adaptive violin</td>
+                                    <td>Clovis North High School</td>
+                                    <td>An assistive technology to aid a student with muscular dystrophy to play the violin with minimal discomfort.</td>
+                                </tr>
+                                <tr>
+                                    <td>Tactile liquid measurement system</td>
+                                    <td>Buckingham Browne & Nichols Middle School</td>
+                                    <td>Helping a community member with blindness independently measure his own liquid medication.</td>
+                                </tr>
+                                <tr>
+                                    <td>Mini Game Mashup Project</td>
+                                    <td>Thomas Jefferson High School</td>
+                                    <td>The project is combination of mini games that can be played using a switch button.</td>
+                                </tr>
+                                <tr>
+                                    <td>COLOR: A Drawing Game</td>
+                                    <td>Thomas Jefferson High School</td>
+                                    <td>COLOR is a switch-adapted drawing game that allows users to draw on an image or on a blank canvas.</td>
+                                </tr>
+                                <tr>
+                                    <td>ATC Music Game</td>
+                                    <td>Thomas Jefferson High School</td>
+                                    <td>The ATC music game is a game where you can place your own notes to create a sound sequence.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    
+                    
                 </div>
-              </div>
+                
             </div>
-          </div>
-        </div>
-        <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-          <div class="right-list">
-            <ul>
-              <li>
-                <div class="left-content align-self-center">
-                  <span><i class="fa fa-calendar"></i> 18 Mar 2021</span>
-                  <a href="#">
-                    <h4>Guest Speaker #2</h4>
-                  </a>
-                  <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
+        </section>
+        <section class="page-section" id="contact" style="background-color: #54b1cf;">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                        <h2 class="mt-0">Contact Us</h2>
+                        <hr class="divider" />
+                        <p class="text-muted mb-5">If you have any questions or concerns, feel free to contact us at designforat@gmail.com</p>
+                    </div>
                 </div>
-                <div class="right-image">
-                  <a href="#"><img src="assets/images/blog-thumb-01.jpg" alt=""></a>
-                </div>
-              </li>
-              <li>
-                <div class="left-content align-self-center">
-                  <span><i class="fa fa-calendar"></i> 14 Mar 2021</span>
-                  <a href="#">
-                    <h4>Guest Speaker #3</h4>
-                  </a>
-                  <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
-                </div>
-                <div class="right-image">
-                  <a href="#"><img src="assets/images/blog-thumb-01.jpg" alt=""></a>
-                </div>
-              </li>
-              <li>
-                <div class="left-content align-self-center">
-                  <span><i class="fa fa-calendar"></i> 06 Mar 2021</span>
-                  <a href="#">
-                    <h4>Guest Speaker #4</h4>
-                  </a>
-                  <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
-                </div>
-                <div class="right-image">
-                  <a href="#"><img src="assets/images/blog-thumb-01.jpg" alt=""></a>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="join" class="contact-us section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 align-self-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.25s">
-          <div class="section-heading">
-            <h2 style="text-transform:none;font-weight:600">If you have any questions about D4AT or would like to start
-              a chapter at your own school, feel free to contact us!</h2>
-            <p>
-              We’re always open to adding new chapters to our organization; If leading an assistive technology club to
-              design accessible devices for your community is appealing to you, please reach out to us! We’ll guide you
-              through the process of finding co-designers and the engineering design process, so all you need to do is
-              assemble a team in your school or community and bring your enthusiasm!
-            </p>
-            <div class="phone-info">
-              <h4>Email Us: <span><img src="assets/images/mail.png" style="width:35px;height:35px"> <a href="#">d4at@gmail.com</a></span></h4>
+                <!-- <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                        <i class="bi-phone fs-2 mb-3 text-muted"></i>
+                        <div>+1 (555) 123-4567</div>
+                    </div>
+                </div> -->
             </div>
-          </div>
-        </div>
-        <div class="col-lg-6 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.25s">
-          <div class="section-heading">
-            <div class="startingSteps">
-              <h2 style="text-transform:none;font-size: 1.25rem;">How to start a chapter:</h2>
-              <ol>
-                <li>
-                  First, you will start by finding and interviewing co-designers and come up with an idea for a device
-                  that will improve your co-designer’s quality of life.
-                </li>
-                <li>
-                  Next, you will design and prototype the device throughout the year, ensuring to document progress so
-                  others can benefit from your work.
-                </li>
-                <li>
-                  Then, you will test the prototype with your co-designer, collect feedback, and improve your design.
-                </li>
-                <li>
-                  Finally, you will present your device at either the D4AT makers faire or BWSI spring course.
-                </li>
-              </ol>
-            </div>
-          </div>
-          <!-- <form id="contact" action="" method="post">
-            <div class="row">
-              <div class="col-lg-6">
-                <fieldset>
-                  <input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-6">
-                <fieldset>
-                  <input type="surname" name="surname" id="surname" placeholder="Surname" autocomplete="on" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email"
-                    required="">
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <textarea name="message" type="text" class="form-control" id="message" placeholder="Message"
-                    required=""></textarea>
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <button type="submit" id="form-submit" class="main-button ">Send Message</button>
-                </fieldset>
-              </div>
-            </div>
-            <div class="contact-dec">
-              <img src="assets/images/contact-decoration.png" alt="">
-            </div>
-          </form> -->
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.25s">
-          <p>© Copyright Design for Assistive Technology - 2022
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- Scripts -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/animation.js"></script>
-  <script src="assets/js/imagesloaded.js"></script>
-  <script src="assets/js/templatemo-custom.js"></script>
-
-</body>
-
+        </section>
+        <!-- Footer-->
+        <footer class="bg-light py-5" >
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted" >Copyright &copy; 2022 - D4AT</div></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>
