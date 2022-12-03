@@ -1208,12 +1208,13 @@ Services Style
 .projects {
   width:90%;
   margin-left: auto;
-  margin-right:auto;  
+  margin-right:auto; 
+  max-width: 1200px; 
 }
 
 .school {
   background: var(--purple);
-  background: linear-gradient(27deg, rgba(154, 28, 154, 1) 0%, rgb(223, 39, 223) 100%);
+  background-color: rgb(229 225 225);
   padding: 30px;
   margin-top: 30px;
   border-radius: 30px;
@@ -1228,7 +1229,7 @@ Services Style
 }
 
 .school-desc  p{
-  color: white;
+  color: black;
   margin-top: 15px;
   max-width: 900px;
 }
@@ -1284,7 +1285,7 @@ Services Style
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgba(255, 0, 170, 0.808);
+  background-color: rgb(7 133 101);
   border-radius: 20px;
   padding: 20px;
   margin-top: 5px;
